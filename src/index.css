@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+}
+
+::placeholder {
+  color: rgb(214, 199, 199);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: rgb(194, 186, 186);
+}
+
+::-ms-input-placeholder {
+  color: rgb(165, 151, 151);
+}
+
+.card-body {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+  background-color: rgba(80, 79, 79, 0.179);
+  padding: 5px;
+  margin: 20px;
+}
+
+.card-body p {
+  font-size: 16px;
+  color: black;
+  padding: 2px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.directory {
+  display: flex;
+  justify-content: center;
+}
+.main-class{
+  display:flex;
+  justify-content:space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius:8px;
+  background-color: rgb(211, 217, 255);
+  padding:5px;
+  margin:20px;
+}
+
+.post-card-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); 
+  gap: 20px; 
+  max-width: 1500px;;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.post-new-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.profile-header {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 46px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.bttn-back {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 15px;
+  margin-left: 10px;
+  align-items: left;
+  padding-top: 20px;
+}
+
+.clock {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: black;
+  color: whitesmoke;
+  margin: 10px;
+}
+
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 40px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.pause-start {
+  margin: 10px;
+  color: black;
+  background-color: rgb(207, 209, 255);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .post-new-card {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .post-new-card {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
